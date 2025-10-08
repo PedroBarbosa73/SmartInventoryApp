@@ -11,7 +11,6 @@ A React Native mobile application for managing personal inventory items with pho
 - **Location Tracking**: Visual storage location management
 - **Modern UI**: Clean, intuitive interface with tab navigation
 
-## Screenshots
 
 The app features a clean, modern interface with:
 - Home tab for searching and viewing items
