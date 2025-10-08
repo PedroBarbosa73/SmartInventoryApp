@@ -1,18 +1,24 @@
 {
   "name": "smartinventory",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "ios": "expo start --ios"
   },
   "dependencies": {
-    "expo": "~53.0.20",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "expo": "~53.0.0",
+    "expo-image-picker": "~16.1.4",
+    "expo-media-library": "~17.1.7",
     "expo-status-bar": "~2.2.3",
+    "firebase": "^12.1.0",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-svg": "15.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
